@@ -1,5 +1,5 @@
 from anticaptchaofficial.funcaptchaproxyless import *
-def SolveCaptcha():
+def solveFuncaptcha():
 
     solver = funcaptchaProxyless()
     solver.set_verbose(1)
@@ -14,3 +14,5 @@ def SolveCaptcha():
         return token
     else:
         print("task finished with error "+solver.error_code)
+
+result = solveFuncaptcha()
