@@ -9,3 +9,7 @@ Aqui você verá várias def() em python para diversas finalidades
 ## solveFuncaptcha()
 - Explicação: `a solveFuncaptcha() serve para resolver um funcaptcha usando anti-captcha.com.`
 - [Código](solveFuncaptcha.py)
+
+## solveRecaptchaV2()
+- Explicação: `a solveRecaptchaV2() serve para resolver um Recaptcha V2 usando anti-captcha.com.`
+- [Código](solveRecaptchaV2.py)
